@@ -32,7 +32,7 @@ document.querySelector('.check').addEventListener
        displayMessage('Bravo! you guess right!')
        document.querySelector('.number').textContent=secretNumber;
        console.log(secretNumber);
-       document.querySelector('body').style.backgroundColor = 'green';
+       document.querySelector('body').style.backgroundColor = '#32c0cc';
        document.querySelector('.number').style.width = '30rem'
 
        if(score > highscore){
